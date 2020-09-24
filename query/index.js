@@ -8,15 +8,15 @@ app.use(cors());
 
 const posts = {};
 // QUICK EXAMPLE
-posts === {
-    'j1e2fe7f': {
-        id: 'j1e2fe7f',
-        title: 'post title',
-        comments: [
-            { id: 'ke8ze5f', content: 'comment !' }
-        ]
-    }
-}
+//posts === {
+//    'j1e2fe7f': {
+//        id: 'j1e2fe7f',
+//        title: 'post title',
+//        comments: [
+//            { id: 'ke8ze5f', content: 'comment !' }
+//        ]
+//    }
+//}
 
 app.get('/posts', (req, res) => {
     res.send(posts);
